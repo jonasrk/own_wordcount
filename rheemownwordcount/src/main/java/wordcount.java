@@ -59,6 +59,8 @@ class Wordcount {
                 // Execute the plan and collect the results.
                 .collect();
 
+        System.out.println(wordcounts);
+
     }
 
     public static void main(String[] args){
